@@ -1,0 +1,33 @@
+/* background: #002b36
+** normal text: #839496
+** item1: #b58900
+** item2: #cb4b16
+** item3: #dc322f
+** item4: #d33682
+** item5: #6c71c4
+** item6: #268bd2
+** item7: #2aa198
+** item8: #859900
+*/
+
+body {
+    background-color: #002b36;
+}
+
+.box {
+    top: 10%;
+    left: 30%;
+    text-align: left;
+    position: absolute;
+    font-family: TerminusNorm;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+@font-face {
+    font-family: TerminusNorm;
+    src: url(terminus.ttf) format('truetype');
+}  
