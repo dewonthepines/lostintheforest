@@ -19,7 +19,7 @@ body {
     src: url(times.tff) format('truetype');
 }  
 
-.box::before {
+.body::before {
     content: " ";
     display: block;
     position: absolute;
