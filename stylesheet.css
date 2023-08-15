@@ -17,6 +17,7 @@ body {
 @font-face {
     font-family: times;
     src: url(times.tff) format('truetype');
+}
     html { background: #111;
         padding: 1em;
         font-family: Noto Sans Display;
@@ -29,8 +30,7 @@ body {
         animation-name: textflicker;
         animation-iteration-count: infinite;
         animation-direction: alternate;
- }
-}  
+ } 
 
 .body::before {
     content: " ";
