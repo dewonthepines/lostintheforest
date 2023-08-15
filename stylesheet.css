@@ -10,7 +10,13 @@
 ** item8: #859900
 */
 
-.crt::before {
+
+
+body {
+    background-color: #002b36;
+}
+
+body::before {
   content: " ";
   display: block;
   position: absolute;
@@ -22,10 +28,6 @@
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
-}
-
-body {
-    background-color: #002b36;
 }
 
 @font-face {
