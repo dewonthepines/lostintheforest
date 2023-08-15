@@ -16,7 +16,7 @@ body {
     background-color: #002b36;
 }
 
-#box::before {
+.box::before {
   content: " ";
   display: block;
   position: absolute;
