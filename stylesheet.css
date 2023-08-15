@@ -19,7 +19,7 @@ body {
     src: url(times.tff) format('truetype');
 }  
 
-#crt:before {
+#crt::before {
     content: " ";
     display: block;
     position: absolute;
