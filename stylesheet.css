@@ -15,8 +15,8 @@ body {
 }
 
 @font-face {
-    font-family: Nexa-Heavy;
-    src: url(Nexa-Heavy.ttf) format('truetype');
+    font-family: Times;
+    src: url(times.tff) format('truetype');
 }  
 
 a { 
@@ -29,7 +29,7 @@ a {
     left: 20%;
     text-align: left;
     position: absolute;
-    font-family: Nexa-Heavy;
+    font-family: Times;
 }
 
 .kittycat {
