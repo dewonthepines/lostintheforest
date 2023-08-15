@@ -23,13 +23,12 @@ a {
     color: inherit; 
     text-decoration: none;
 } 
-
 .box {
     top: 12%;
     left: 20%;
     text-align: left;
     position: absolute;
-    font-family: times;
+    font-family: Nexa-Heavy;
 }
 
 .kittycat {
