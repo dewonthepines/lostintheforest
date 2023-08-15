@@ -45,49 +45,6 @@ a {
     width:30%
 }
 
-}
-#switch{
-  display:none;
-}
-.switch-label{
-  display:inline-block;
-  cursor:pointer;
-  background:#fff;
-  color:#111;
-  padding:10px;
-  padding-left:15px;
-  padding-right:15px;
-  border-radius:5px;
-  margin-top:10px;
-  box-shadow:0 2px #666;
-  &::after{
-    content:"on";
-  }
-  &::before{
-    content:" ";
-    display:inline-block;
-    border-radius:100%;
-    width:10px;
-    height:10px;
-    background:#003321;
-    margin-right:10px;
-    border:1px solid #111;
-  }
-  &:active{
-    box-shadow:none;
-    transform:translate3d(0,2px,0);
-  }
-}
-#switch:checked+.switch-label{
-  &::before{
-    background:#22ff55;
-  }
-  &::after{
-    content:"off";
-  }
-}
-
-
 @keyframes flicker{
   $steps:20;
   @for $i from 0 through $steps{
