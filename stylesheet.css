@@ -15,8 +15,8 @@ body {
 }
 
 @font-face {
-    font-family: times;
-    src: url(Nexa-Heavy.ttf) format('truetype');
+    font-family: Nexa-Heavy;
+    src: url(times.tff) format('truetype');
 }  
 
 a { 
