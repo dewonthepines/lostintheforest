@@ -19,7 +19,7 @@ body {
     left: 30%;
     text-align: left;
     position: absolute;
-    font-family: TerminusNorm;
+    font-family: Times;
 }
 
 a { 
@@ -28,6 +28,6 @@ a {
 } 
 
 @font-face {
-    font-family: TerminusNorm;
+    font-family: Times;
     src: url(terminus.ttf) format('truetype');
 }  
